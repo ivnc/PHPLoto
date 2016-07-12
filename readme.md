@@ -3,8 +3,8 @@
 # PHPLoto #
 
 Bienvenidos a PHPLoto. Éste es un simple script que cuenta con las siguientes funciones:
-* Generación de tres números aleatorios entre unos límites definidos: número, serie y complementario.</li>
-<li>Perxonalización completa, pudiendo definir de forma interactiva números mínimo y máximo y en el escript el número de series, además de poder añadir fácilmente campos para hacer esto último también de forma interactiva.
+* Generación de tres números aleatorios entre unos límites definidos: número, serie y complementario.
+* Perxonalización completa, pudiendo definir de forma interactiva números mínimo y máximo y en el escript el número de series, además de poder añadir fácilmente campos para hacer esto último también de forma interactiva.
 * Soporte para contraseña: solo el propietario y/o las personas autorizadas con una contraseña (por defecto: sorteandoando) podrán sortear.
 * Comprobación si los números ganador y complementario son iguales. En caso negativo, se intenta regenerar el complementario hasta 10 veces (para activarlo, establezca ignore_min_equals_max en True). Si no se consigue, se muestra la advertencia pertinente al usuario.
 * No se requieren módulos adicionales: la ejecución se apoya en funciones totalmente nativas de PHP, desde su versión 4.
